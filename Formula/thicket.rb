@@ -2,28 +2,28 @@
 class Thicket < Formula
   desc "Deterministic complexity reports for TypeScript codebases"
   homepage "https://alecf.github.io/thicket/"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/alecf/thicket/releases/download/v0.2.0/thicket-0.2.0-darwin-arm64.tar.gz"
-      sha256 "eda1ab81d9de74071b553fac9126cf4436dff57b64a80811c889ba319c0cf65d"
+      url "https://github.com/alecf/thicket/releases/download/v0.3.0/thicket-0.3.0-darwin-arm64.tar.gz"
+      sha256 "a36db603bf9fd5cedb6be8c3433da480a582b9dec5b4510b61401663978f60f7"
     end
     on_intel do
-      url "https://github.com/alecf/thicket/releases/download/v0.2.0/thicket-0.2.0-darwin-x64.tar.gz"
-      sha256 "0039a027b357ffcd19a35e710ed6569236ec648f613df2cb383b3198104c3979"
+      url "https://github.com/alecf/thicket/releases/download/v0.3.0/thicket-0.3.0-darwin-x64.tar.gz"
+      sha256 "e9c27b818e1b0db587e3e55634395a0963f46718e9fc9abeecf0af48f712bb5b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alecf/thicket/releases/download/v0.2.0/thicket-0.2.0-linux-arm64.tar.gz"
-      sha256 "b4690b2b0990cf6c045caa8d02e1a188da427a8863046dc327d3c09c9c3ee1a2"
+      url "https://github.com/alecf/thicket/releases/download/v0.3.0/thicket-0.3.0-linux-arm64.tar.gz"
+      sha256 "0f123294823686306e70fcad2f0fb55002ace26dbd2b7c9dac9cb388a19dbd12"
     end
     on_intel do
-      url "https://github.com/alecf/thicket/releases/download/v0.2.0/thicket-0.2.0-linux-x64.tar.gz"
-      sha256 "135eb908ab9723098f45165e36cdbee397683c253c56e966e0b8fbdd8182cbcc"
+      url "https://github.com/alecf/thicket/releases/download/v0.3.0/thicket-0.3.0-linux-x64.tar.gz"
+      sha256 "412ba48e250099ad2c8c82694351c9deae82644ad4c5a454688eee9e520d4a89"
     end
   end
 
